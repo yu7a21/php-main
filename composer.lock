@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "74cdf9887a19f9dff48c202b01ce1b09",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1766,6 +1766,39 @@
                 }
             ],
             "time": "2022-07-24T11:55:47+00:00"
+        },
+        {
+            "name": "nakamurayuta/php-library",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yu7a21/php-library.git",
+                "reference": "7fff384d92f73c24cf0f04cd71025ebfd6b3429c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yu7a21/php-library/zipball/7fff384d92f73c24cf0f04cd71025ebfd6b3429c",
+                "reference": "7fff384d92f73c24cf0f04cd71025ebfd6b3429c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nakamurayuta\\PhpLibrary\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "yutanakamura",
+                    "email": "nakamurayuta@team-lab.com"
+                }
+            ],
+            "description": "sample lib",
+            "support": {
+                "source": "https://github.com/yu7a21/php-library/tree/1.0.1",
+                "issues": "https://github.com/yu7a21/php-library/issues"
+            },
+            "time": "2022-09-13T04:13:49+00:00"
         },
         {
             "name": "nesbot/carbon",
